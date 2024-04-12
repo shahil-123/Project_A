@@ -2,3 +2,13 @@
 .btn{
   border-radius: 23px
 }
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+li link{
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;
+}

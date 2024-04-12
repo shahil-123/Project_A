@@ -6,6 +6,11 @@
     width:360px;
     border-radius: 50%;
     border: 30px solid #8484f340;
+    text-align: center !important;
+  margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  justify-content: center;
   }
   .circle2{
     height: 300px;
@@ -47,4 +52,58 @@
     /* height: 12rem; */
     background-color: #c8e6f2;
 
+  }
+  footer{
+    background-color: #202051;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  footer h5{
+    color: white;
+  }
+  footer li{
+    list-style: none;
+  }
+  .fa{
+    font-size: 25px;
+  }
+  @media (max-width: 768px) {
+  #video-sec{
+    width:"300" !important;
+    height:"225" !important;
+  }
+  .find-job{
+    height: 18rem;
+    background-color: #c8e6f2;
+
+  }
+  }
+  .nav-item{
+    text-decoration: none !important;
+  }
+
+  .link-head{
+    text-decoration: none;
+   
+    cursor: pointer;
+  }
+  .logo-link{
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  form{
+    /* background-color: #202051; */
+    background-color: #c8e6f2;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 14px;
+  }
+ 
+  .btn-link i{
+    font-size: 33px;
   }

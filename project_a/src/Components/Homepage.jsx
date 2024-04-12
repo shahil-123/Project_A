@@ -1,8 +1,9 @@
 import React from "react";
-
+// import { FindJob1 } from './FindJob1';
 function Homepage() {
   return (
     <div>
+      {/* <FindJob1 /> */}
       <section>
         <div className="container ">
           <div className="row d-flex align-items-center">
@@ -148,6 +149,7 @@ function Homepage() {
           <div className="container text-center">
             <h2 className="text-center pb-4">How Company Work</h2>
             <iframe
+              id="video-sec"
               width="760"
               height="415"
               src="https://www.youtube.com/embed/jDLuJLoaA_g?si=Q9U5CfwZVmlPbw2q"
@@ -187,7 +189,6 @@ function Homepage() {
           <div className="col-md-4 col-sm-12">
             <div class="card">
               <div class="card-body text-center">
-               
                 <img
                   src="/assets/images/icon1.png"
                   className="img-fluid profile-img my-4"
@@ -201,7 +202,6 @@ function Homepage() {
           <div className="col-md-3 col-sm-12">
             <div class="card">
               <div class="card-body text-center">
-               
                 <img
                   src="/assets/images/icon7.jpg"
                   className="img-fluid profile-img my-4 "
@@ -215,6 +215,9 @@ function Homepage() {
           <div className="col-md-1 col-sm-12"></div>
         </div>
       </section>
+      
+      
+      
     </div>
   );
 }
